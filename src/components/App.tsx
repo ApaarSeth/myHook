@@ -70,10 +70,11 @@ const useFormHook = (name: string, validation?: validation) => {
       }
 
       if (validation.custom) {
-        let errorMessage = validation.custom(val);
-        if (errorMessage) {
-          errorMessage = errorMessage ? errorMessage : `${name} is invalid`;
-          return errorMessage;
+        const error = validation.custom(val);
+        if (error) {
+          return validation.customErrorMessage
+            ? validation.customErrorMessage
+            : `${name} is invalid`;
         }
       }
       return null;

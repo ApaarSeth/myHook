@@ -1,6 +1,6 @@
 {
   "name": "use-form-custom-hook",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Forms Simplified",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",

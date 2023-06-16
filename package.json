@@ -1,6 +1,6 @@
 {
   "name": "use-form-custom-hook",
-  "version": "1.1.0",
+  "version": "1.1.3",
   "description": "Forms Simplified",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -26,7 +26,15 @@
     "react",
     "typescript",
     "awesome-project",
-    "react-form-library"
+    "Form validation",
+    "react-form-library",
+    "hooks",
+    "form",
+    "forms",
+    "form-validation",
+    "validation",
+    "typescript",
+    "react-hooks"
   ],
   "files": [
     "dist",
